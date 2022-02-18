@@ -1,5 +1,5 @@
 <?php
-$subject = 'You Got Message'; // Subject of your email
+$subject = 'Tienes un mensaje de tu página web'; // Subject of your email
 $to = 'olivares.fotodiseno@gmail.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
