@@ -91,7 +91,7 @@ body {
     font-weight: 400;
     background: top fixed;
     background-size: cover;
-    color: #777777;
+    color: #969696;
     line-height: 1.7em;
     padding: 0;
     display: none;
@@ -941,7 +941,7 @@ section {
 }
 
 section {
-    background: #111111;
+    background: #000B26;
 }
 
 section.overwidth{
@@ -3125,6 +3125,7 @@ span.teaser {
     -webkit-border-radius: 2px;
     overflow: hidden;
     border: solid 2px rgba(255,255,255,.05);
+    border-radius: 10px;
 }
 .text-light .feature-box .inner{
 	border:solid 1px rgba(255,255,255,.2);
@@ -3443,7 +3444,7 @@ span.teaser {
 }
 
 
-}
+
 .box-fx .inner {
     position: relative;
     overflow: hidden;
@@ -5636,9 +5637,9 @@ table thead {
     outline: none;
 }
 p.lead {
-    font-size: 23px;
-    line-height: 1.6em;
-    margin:10px 0;
+    font-size: 20px;
+    line-height: 1.4em;
+    margin: 10px 0;
     font-weight: 400;
     font-family:"neuzeit-grotesk";
 }
@@ -7248,7 +7249,7 @@ section.no-padding {
 .owl-arrow .next:before {
     font-family: "FontAwesome";
     content: '\f177';
-    color: #2;
+    /*color: #2;*/
     padding: 20px;
     font-size: 32px;
     display: block;
@@ -7393,7 +7394,7 @@ section.no-padding {
 }
 
 .overlay-bg.c1 {
-    background: rgba(20, 20, 20, .8);
+    background: rgba(5, 27, 42, .8);
 }
 .overlay-bg.gradient-blue-aqua {
     background: -moz-linear-gradient(45deg, rgba(2, 68, 129, 0.9) 0%, rgba(52, 176, 188, 1) 100%);
@@ -7965,7 +7966,7 @@ a.btn-download:hover i{
 	z-index:1000;
 	width:100%;
 	height:100%;
-	background-color:rgba(0,0,0,.5);		
+	background-color:rgba(1,32,077,.5);		
 }
 	
 #content.menu-open{
@@ -8600,7 +8601,6 @@ a.btn-slider:hover {
 	border:none;
 	outline:none;
 	padding:0;
-	
 	width:8px;
 	height:8px;
 }
