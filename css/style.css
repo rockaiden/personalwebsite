@@ -2754,7 +2754,7 @@ h1.big,
     font-size: 56px;
     margin: 0;
     line-height: 65px;
-	letter-spacing:-2px;
+	letter-spacing:-1px;
 }
 
 h1.very-big {
@@ -3416,7 +3416,7 @@ span.teaser {
 }
 
 .exp-box {
-    border-bottom: solid 1px rgba(255,255,255,.05);
+    border-bottom: solid 1px rgba(255,255,255,.32);
 	margin-bottom:30px;
 }
 .text-light .exp-box {
@@ -9239,7 +9239,7 @@ img {
     }
 	
 	.h1_big{
-		font-size:7vw;
+		font-size:6vw; 
 		line-height:7vw;
 	}
 	
