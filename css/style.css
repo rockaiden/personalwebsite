@@ -2721,7 +2721,7 @@ footer h6 {
     color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6, .h1_big{
+h1,h2,h3,h4,h5,h6, .h1_big, .h1_big_portfolio{
 	color:#fff;	
 	font-family:"neuzeit-grotesk";
 	margin:0;
@@ -2750,7 +2750,8 @@ h1 .small-border {
 }
 
 h1.big,
-.h1_big {
+.h1_big,
+.h1_big_portfolio {
     font-size: 56px;
     margin: 0;
     line-height: 65px;
@@ -9246,6 +9247,12 @@ img {
 	.h1_ultra{
 		font-size:12vw;
 		line-height:12vw;
+	}
+
+    .h1_big_portfolio{
+		font-size:6vw; 
+		line-height:7vw;
+        height: 250px;
 	}
 }
 
