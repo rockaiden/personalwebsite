@@ -2034,7 +2034,6 @@ a.btn-line {
     padding: 3px;
     padding-left: 30px;
     padding-right: 30px;
-    text-transform: uppercase;
     display: inline-block;
     text-align: center;
     letter-spacing: 2px;
@@ -2045,6 +2044,7 @@ a.btn-line {
 a.btn-line {
     border: solid 1px rgba(255, 255, 255, .2) !important;
     color: #fff;
+    border-radius: 20px;
 }
 
 .de_dark .btn-line,
@@ -9452,3 +9452,22 @@ img {
     .fix_height{
         height: 250px;
     }
+
+    .bn62 {
+        color: #ffffff !important;
+        background-color: #0070ff;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 2em;
+        width: 7em;
+        font-size: large;
+        font-weight: 600;
+      }
+
+      .bn62:hover {
+        color: #1cc49d;
+        background-color: #004da0;
+        text-decoration: none;       
+      }

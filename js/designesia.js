@@ -68,7 +68,7 @@
 		});
 		// popup youtube, video, gmaps
 		jQuery('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-			disableOn: 700,
+			disableOn: 200, // was in 700 //
 			type: 'iframe',
 			mainClass: 'mfp-fade',
 			removalDelay: 160,
