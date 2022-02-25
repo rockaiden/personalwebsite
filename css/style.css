@@ -941,7 +941,7 @@ section {
 }
 
 section {
-    background: #000B26;
+    background: #dbdbdb;
 }
 
 section.overwidth{
@@ -2718,11 +2718,11 @@ footer h3,
 footer h4,
 footer h5,
 footer h6 {
-    color: #fff;
+    color: rgb(29, 29, 29);
 }
 
 h1,h2,h3,h4,h5,h6, .h1_big{
-	color:#fff;	
+	color:rgb(37, 37, 37);	
 	font-family:"neuzeit-grotesk";
 	margin:0;
 	padding:0;
