@@ -241,7 +241,7 @@ header div#logo {
 }
 
 #top-bar.transparent{
-	background:none;
+	
 }
 
 #top-bar #logo {
@@ -941,7 +941,7 @@ section {
 }
 
 section {
-    background: #dbdbdb;
+    background: #f5f5f5;
 }
 
 section.overwidth{
@@ -4222,7 +4222,7 @@ a:visited.accordion-toggle {
 }
 .de_dark .de_tab.tab_style_2 .de_nav li.active span {
     border-bottom: solid 6px;
-    color: #ffffff;
+    color: #070707;
     background: none;
 }
 .text-light .de_tab.tab_style_2 .de_nav li.active span {
@@ -6687,7 +6687,7 @@ animation: blink 0.7s infinite;
 	transform: rotate(270deg);
 	/*letter-spacing:3px;*/
 	font-weight:400;
-	color:#ffffff;
+	color: #ffffff;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -7361,7 +7361,7 @@ section.no-padding {
     width: 100%;
     height: 100%;
     z-index: 100;
-    background: rgba(20, 20, 20, .7);
+    background: rgba(20, 20, 20, .1); 
     top: 0;
     padding: 100px 0 100px 0;
 }
@@ -7851,10 +7851,10 @@ a.read_more i {
     padding: 0 10px 0 10px;
 }
 #top-bar {
-    background: #ffffff;
+    background: hsl(0deg 0% 0% / 30%);
     display: table;
     width: 100%;
-    padding: 30px 0 30px 0;
+    padding: 15px 0 15px 0;
     position: fixed;
 	top:0;
 	z-index:1000;
